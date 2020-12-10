@@ -62,12 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Container(
-            child: Text(widget.title),
-            alignment: Alignment.center
-        ),
-      ),
+      appBar: AppBarStyle(widget.title),
       body: GridView.count(
         //Adapt view for portrait and landscape
         crossAxisCount: MediaQuery.of(context).orientation == Orientation.portrait ? 2 : 4,

@@ -7,8 +7,20 @@ abstract class Style {
 
   static ThemeData theme = ThemeData(
     primaryColor: mainColor,
-    visualDensity: VisualDensity.adaptivePlatformDensity,
+    visualDensity: VisualDensity.adaptivePlatformDensity
   );
 
   static TextStyle textStyle = TextStyle(color: mainColor);
+}
+
+/// Create a new object for all AppBar
+class AppBarStyle extends AppBar {
+  AppBarStyle(String title, {key})
+    : super (
+      key: key,
+      title: Container(
+        child: Text(title, style: TextStyle(color: Colors.white)),
+        alignment: Alignment.center
+      ),
+    );
 }
