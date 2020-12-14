@@ -4,7 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:valladolid_multiapp/style.dart';
 import 'package:video_player/video_player.dart';
 import 'package:http/http.dart' as http;
+
+/// A text Widget with a padding to improve design for listing of videos
 class TextWithBorder extends Container {
+  /// Creates a [text] with a padding to improve design for listing of videos
   TextWithBorder(String text, {key})
     : super(
       child: Text(
@@ -16,9 +19,17 @@ class TextWithBorder extends Container {
     padding: EdgeInsets.all(16)
   );
 }
+
+/// A [RaisedButton] to select one video to play
+///
+/// When the video is initialized, the method is different for network and resource videos.
 class ToVideoButton extends RaisedButton {
+  /// Path of the video either in folder /res/video or https website (http raise an error for insecure web page)
   final String controller;
+  /// True when the video is store in web server. Else for videos in resource folder.
   final bool isNetworkVideo;
+
+  /// Creates a [RaisedButton] to select one video to play.
   ToVideoButton({key, @required context, @required String name, @required this.controller, this.isNetworkVideo})
     : super (
       key: key,
@@ -32,9 +43,25 @@ class ToVideoButton extends RaisedButton {
     )));
 }
 
+/// Defines a new view with all videos available for this application.
+///
+/// Videos can be in resource folder /res/ or on web server.
 class Vodcast extends StatelessWidget {
-  final String website = 'https://valladolid.alwaysdata.net/videos';
+  /// Contains a web server address
+  ///
+  /// It must be a folder which contains all videos.
+  ///
+  /// A php file with the same name of folder return a JSON object (list of strings) with all video names.
+  /// Web server have the following tree:
+  /// - videos.php
+  /// - videos/
+  ///   - video1.mp4
+  ///   - video2.mp4
+  String website = 'https://valladolid.alwaysdata.net/videos';
 
+  /// This function download the JSON file which contains all videos name
+  ///
+  /// After downloading, this function return a [List<String>] which contain all video name on the server.
   Future<List> _retrieveVideoList() async {
     http.Response response = await http.get(website + '.php');
     return jsonDecode(response.body);
@@ -69,9 +96,9 @@ class Vodcast extends StatelessWidget {
               ));
           }
           else if (snapshot.hasError)
-            output.add(Text('Ha habido un error : ${snapshot.error}'));
+            output.add(TextWithBorder('Ha habido un error : ${snapshot.error}'));
           else
-            output.add(Text("Lista de videos que se están descargando... Por favor, espere...."));
+            output.add(TextWithBorder("Lista de videos que se están descargando... Por favor, espere...."));
           return ListView(children: output);
       }));
   }

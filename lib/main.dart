@@ -5,40 +5,44 @@ import 'package:valladolid_multiapp/Resources.dart';
 import 'package:valladolid_multiapp/Vodcast.dart';
 import 'package:valladolid_multiapp/style.dart';
 
-void main() => runApp(MyApp());
-
-/**
- * Create button for home which contains image and text
- * @param name of button
- * @param img contain the image to display
- * @param pathView to go when the button pressed
- */
+/// Create a button for [HomePage] to push toward a new view.
+///
+/// [GestureDetector] is used to use [onTap] method and enables to superpose text above image.
 class HomeButton extends GestureDetector{
-  HomeButton(name, context, {Key key, @required img, @required pathView}) : super (
+  /// The button contains one [image] and the [name] to know this action.
+  /// The new view which controlled by the button is defined with the [pathView]
+  HomeButton(name, context, {Key key, @required image, @required pathView}) : super (
     key: key,
     child: Container(
       child: Text(name, style: Style.textStyle),
       alignment: Alignment.bottomCenter,
+      //Padding adds a white space between text
       padding: EdgeInsets.all(40),
       decoration: BoxDecoration(
         image: DecorationImage(
-            image: AssetImage(img),
+            image: AssetImage(image),
             fit: BoxFit.cover
-        ),//, height: 100, width: 100),
+        ),
       ),
     ),
     onTap: () => Navigator.pushNamed(context, pathView)
   );
 }
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+/// Define the new main function to start the first view
+void main() => runApp(App());
+
+/// [App] class defined caracteristics of application
+///
+/// First, this class defines the general theme. A custom abstract [Style] class is used for this.
+/// Next, routes are defined. This creates a short name to redirect views. There are one dart file for each route (with the same name)
+/// Then, the default route starts [HomePage] view. This class is defined below in this file.
+class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mi App',
       theme: Style.theme,
-      home: MyHomePage(title: 'Mi App'),
+      home: HomePage(),
       routes : {
         '/vodcast': (context) => Vodcast(),
         '/resources': (context) => Resources(),
@@ -49,28 +53,19 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarStyle(widget.title),
+      appBar: AppBarStyle('Mi App'),
       body: GridView.count(
-        //Adapt view for portrait and landscape
+        //Adapt view for portrait and landscape orientation
         crossAxisCount: MediaQuery.of(context).orientation == Orientation.portrait ? 2 : 4,
         children: <Widget>[
-          HomeButton("Vodcasts", context, img: 'res/Podcast.png', pathView: '/vodcast'),
-          HomeButton("Resources", context, img: 'res/resources.png', pathView: '/resources'),
-          HomeButton("Calculator", context, img: 'res/calculator.png', pathView: '/calculator'),
-          HomeButton("Figures", context, img: 'res/figures.png', pathView: '/figures')
+          HomeButton("Vodcasts", context, image: 'res/Podcast.png', pathView: '/vodcast'),
+          HomeButton("Resources", context, image: 'res/resources.png', pathView: '/resources'),
+          HomeButton("Calculator", context, image: 'res/calculator.png', pathView: '/calculator'),
+          HomeButton("Figures", context, image: 'res/figures.png', pathView: '/figures')
         ],
       )
     );
