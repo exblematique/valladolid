@@ -133,7 +133,9 @@ class _CalculatorState extends State<Calculator>{
           alignment: Alignment.center,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [Text("Okuda:", style: Style.textStyle),Text(okuda)]),
+            children: [
+              Text("Okuda:", style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(okuda, style: Style.textStyle)]),
           padding: EdgeInsets.all(30),
           margin: EdgeInsets.all(30),
           decoration: BoxDecoration(border: Border.all())
