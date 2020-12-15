@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:valladolid_multiapp/style.dart';
 
@@ -49,20 +50,32 @@ class _FiguresState extends State<Figures>{
 
     // Create a beautiful header for drawer
     drawerList.add(DrawerHeader(
-      child: Text('List of available figures', style: TextStyle(color: Colors.white), textAlign: TextAlign.center),
+      child: Text('LIST OF AVAILABLE FIGURES', style: TextStyle(color: Colors.white), textAlign: TextAlign.center),
       decoration: BoxDecoration(
         color: Style.mainColor,
       ),
       padding: EdgeInsets.all(75),
     ));
 
+    // Add return entry on drawer list 
+    drawerList.add(ListTile(
+      title: Row(children: [Icon(Icons.arrow_back), Text(" BACK")]),
+      onTap: () {
+        // Close drawer
+        Navigator.pop(context);
+        // Return to previous page
+        Navigator.pop(context);
+    }));
+
     // This function create an entry in drawer for each value in figures variable
+    // Then close Drawer
     figures.entries.forEach((e) {
       drawerList.add(ListTile(
         title: Text(e.key),
         onTap: () => setState(() {
           currentImage = Image.asset(e.value);
           currentImageName = e.key;
+          Navigator.pop(context);
         }),
       ));
     });
