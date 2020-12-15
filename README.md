@@ -1,16 +1,43 @@
-# valladolid_multiapp
+# A application for multiplateform for study project in Valladolid
 
-A new Flutter application.
+This application contains a home page to redirect toward 4 views:
+- [Vodcast](#Vodcast)
+- [Resources](#Resources)
+- [Calculator](#Calculator)
+- [Figures](#Figures)
 
-## Getting Started
+I create a web site to interact with this application on [https://valladolid.alwaysdata.net](https://valladolid.alwaysdata.net/videos.php).
 
-This project is a starting point for a Flutter application.
+## Vodcast
 
-A few resources to get you started if this is your first Flutter project:
+This Widget have 2 steps.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Step 1: List of videos
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This page displays the list of videos available. There are 2 parts :
+- Local videos which contains all videos available in res/ folders in this Flutter application
+- Distant videos on [web server](https://valladolid.alwaysdata.net/videos/)
+
+When views starts, this view will download the file [videos.php](https://valladolid.alwaysdata.net/videos.php) on the root of server.
+This contains a JSON object. This is a list with all videos available on the server.
+
+User can be pressed a button to watch the corresponding video.
+
+### Step 2: Watch video
+
+When this view is started, a controller is created.
+The method to initialize this depends if video is local or distant.
+
+When video is ready, the user can watch it. There is a floating button to pause the video.
+
+## Resources
+
+This view displays a web page from [https://valladolid.alwaysdata.net](https://valladolid.alwaysdata.net/). User can be navigate on this but stay on this application
+
+## Calculator
+
+This view enables to user to calculate him Okula. Data to calculate this are official data from [Gastro website](http://www.gastro.org/guidelines).
+
+## Figures
+
+This views displays figures available for understand courses. A drawer is created to enable to switch between all figures and back on the previous page.
