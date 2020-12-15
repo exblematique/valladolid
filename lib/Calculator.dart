@@ -62,7 +62,7 @@ class _CalculatorState extends State<Calculator>{
   Widget build(BuildContext context) {
     List<Widget> children = <Widget>[
       Expanded(child:Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           InputWidget(
             name: "Bilirrubina",
@@ -128,11 +128,16 @@ class _CalculatorState extends State<Calculator>{
           })),
         ]
     )),
-    Container(
-      child: Column(children: [Text("Okuda "),Text(okuda)]),
-      padding: EdgeInsets.all(10),
-      margin: EdgeInsets.all(30),
-      decoration: BoxDecoration(border: Border.all()),
+    Expanded(
+        child: Container(
+          alignment: Alignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [Text("Okuda:", style: Style.textStyle),Text(okuda)]),
+          padding: EdgeInsets.all(30),
+          margin: EdgeInsets.all(30),
+          decoration: BoxDecoration(border: Border.all())
+        ),
     )
   ];
     return Scaffold(
