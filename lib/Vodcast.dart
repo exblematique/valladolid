@@ -1,9 +1,8 @@
-import 'dart:async';
-import 'dart:convert';
-import 'package:flutter/material.dart';
+import 'dart:convert' show jsonDecode;
+import 'package:flutter/material.dart' show Alignment, AspectRatio, BuildContext, Center, CircularProgressIndicator, ConnectionState, Container, EdgeInsets, FloatingActionButton, FutureBuilder, Icon, Icons, Key, ListView, MaterialPageRoute, Navigator, RaisedButton, Scaffold, State, StatefulWidget, StatelessWidget, Text, Widget, required;
+import 'package:video_player/video_player.dart' show VideoPlayer, VideoPlayerController;
+import 'package:http/http.dart' as http show Response, get;
 import 'package:valladolid_multiapp/style.dart';
-import 'package:video_player/video_player.dart';
-import 'package:http/http.dart' as http;
 
 /// A text Widget with a padding to improve design for listing of videos
 class TextWithBorder extends Container {

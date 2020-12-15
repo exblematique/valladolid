@@ -1,7 +1,7 @@
 import 'dart:io' show Platform;
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' show BuildContext, Scaffold, State, StatefulWidget, Widget;
+import 'package:webview_flutter/webview_flutter.dart' show SurfaceAndroidWebView, WebView;
 import 'package:valladolid_multiapp/style.dart';
-import 'package:webview_flutter/webview_flutter.dart';
 
 class Resources extends StatefulWidget {
   final String website = 'https://valladolid.alwaysdata.net/';

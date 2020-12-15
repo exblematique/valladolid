@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:valladolid_multiapp/Calculator.dart';
-import 'package:valladolid_multiapp/Figures.dart';
-import 'package:valladolid_multiapp/Resources.dart';
-import 'package:valladolid_multiapp/Vodcast.dart';
+import 'package:flutter/material.dart' show Alignment, AssetImage, BoxDecoration, BoxFit, BuildContext, Container, DecorationImage, EdgeInsets, GestureDetector, GridView, Key, MaterialApp, MediaQuery, Navigator, Orientation, Scaffold, StatelessWidget, Text, Widget, required, runApp;
+import 'package:valladolid_multiapp/Calculator.dart' show Calculator;
+import 'package:valladolid_multiapp/Figures.dart' show Figures;
+import 'package:valladolid_multiapp/Resources.dart' show Resources;
+import 'package:valladolid_multiapp/Vodcast.dart' show Vodcast;
 import 'package:valladolid_multiapp/style.dart';
 
 /// Create a button for [HomePage] to push toward a new view.

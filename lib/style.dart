@@ -1,6 +1,5 @@
-//import 'dart:html';
+import 'package:flutter/material.dart' show AppBar, Color, Colors, IconThemeData, Text, TextStyle, ThemeData, VisualDensity;
 
-import 'package:flutter/material.dart';
 ///
 /// This class defines all variables needed to change style of application
 ///
