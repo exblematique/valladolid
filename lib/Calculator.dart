@@ -35,13 +35,13 @@ class InputWidget extends Row {
   );
 }
 
-/// A [ToggleButtonCustom] class to define with a unique way for all [ToggleButton]
+/// A [ToggleButtonCustom] class to define with a unique way for all [ToggleButtons]
 ///
-/// [children] contains all buttons. This class expends buttons in all line
+/// The argument children contains all buttons. This class expends buttons in all line
 class ToggleButtonCustom extends LayoutBuilder {
-  /// Create a [ToggleButtonCustom] class to define with a unique way for all [ToggleButton]
+  /// Create a [ToggleButtonCustom] class to define with a unique way for all [ToggleButtons]
   ///
-  /// [children] contains all buttons. This class expends buttons in all line
+  /// The argument children contains all buttons. This class expends buttons in all line.
   ToggleButtonCustom({Key key, @required List<Widget> children, @required isSelected, @required onPressed})
     :super(
       key: key,

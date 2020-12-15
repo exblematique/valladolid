@@ -1,10 +1,11 @@
 # A application for multiplateform for study project in Valladolid
 
 This application contains a home page to redirect toward 4 views:
-- [Vodcast](#Vodcast)
-- [Resources](#Resources)
-- [Calculator](#Calculator)
-- [Figures](#Figures)
+- [Vodcast](#vodcast)
+- [Resources](#resources)
+- [Calculator](#calculator)
+- [Figures](#figures)
+
 
 I create a web site to interact with this application on [https://valladolid.alwaysdata.net](https://valladolid.alwaysdata.net/videos.php).
 
