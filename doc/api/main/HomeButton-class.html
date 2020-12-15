@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the HomeButton class from the main library, for the Dart programming language.">
+  <title>HomeButton class - main library - Dart API</title>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../static-assets/github.css">
+  <link rel="stylesheet" href="../static-assets/styles.css">
+  <link rel="icon" href="../static-assets/favicon.png">
+
+</head>
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">valladolid_multiapp</a></li>
+    <li><a href="../main/main-library.html">main</a></li>
+    <li class="self-crumb">HomeButton class</li>
+  </ol>
+  <div class="self-name">HomeButton</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="../index.html">valladolid_multiapp</a></li>
+      <li><a href="../main/main-library.html">main</a></li>
+      <li class="self-crumb">HomeButton class</li>
+    </ol>
+    
+    <h5>main library</h5>
+    <ol>
+  <li class="section-title"><a href="../main/main-library.html#classes">Classes</a></li>
+  <li><a href="../main/App-class.html">App</a></li>
+  <li><a href="../main/HomeButton-class.html">HomeButton</a></li>
+  <li><a href="../main/HomePage-class.html">HomePage</a></li>
+
+
+
+
+
+  <li class="section-title"><a href="../main/main-library.html#functions">Functions</a></li>
+  <li><a href="../main/main.html">main</a></li>
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-class">HomeButton</span> class  </h1></div>
+
+    <section class="desc markdown">
+      <p>This is the main file for this application</p>
+<p>Create a button for <a href="../main/HomePage-class.html">HomePage</a> to push toward a new view.</p>
+<p><a href="https://api.flutter.dev/flutter/widgets/GestureDetector-class.html">GestureDetector</a> is used to use <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTap.html">onTap</a> method and enables to superpose text above image.</p>
+    </section>
+    
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree-class.html">DiagnosticableTree</a></li>
+          <li><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></li>
+          <li><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html">StatelessWidget</a></li>
+          <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector-class.html">GestureDetector</a></li>
+          <li>HomeButton</li>
+        </ul></dd>
+
+
+
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="HomeButton" class="callable">
+          <span class="name"><a href="../main/HomeButton/HomeButton.html">HomeButton</a></span><span class="signature">(<span class="parameter" id="-param-name"><span class="type-annotation">dynamic</span> <span class="parameter-name">name</span>, </span><span class="parameter" id="-param-context"><span class="type-annotation">dynamic</span> <span class="parameter-name">context</span>, </span><span class="parameter" id="-param-key">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/Key-class.html">Key</a></span> <span class="parameter-name">key</span>, </span><span class="parameter" id="-param-image"><span>@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/required-constant.html">required</a></span> <span class="type-annotation">dynamic</span> <span class="parameter-name">image</span>, </span><span class="parameter" id="-param-pathView"><span>@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/required-constant.html">required</a></span> <span class="type-annotation">dynamic</span> <span class="parameter-name">pathView</span>}</span>)</span>
+        </dt>
+        <dd>
+          The button contains one <code>image</code> and the <code>name</code> to know this action.
+The new view which controlled by the button is defined with the <code>pathView</code> 
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="behavior" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/behavior.html">behavior</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/rendering/HitTestBehavior-class.html">HitTestBehavior</a></span>         
+        </dt>
+        <dd class="inherited">
+          How this gesture detector should behave during hit testing. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/behavior.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="child" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/child.html">child</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>         
+        </dt>
+        <dd class="inherited">
+          The widget below this widget in the tree. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/child.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="dragStartBehavior" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/dragStartBehavior.html">dragStartBehavior</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/DragStartBehavior-class.html">DragStartBehavior</a></span>         
+        </dt>
+        <dd class="inherited">
+          Determines the way that drag start behavior is handled. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/dragStartBehavior.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="excludeFromSemantics" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/excludeFromSemantics.html">excludeFromSemantics</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd class="inherited">
+          Whether to exclude these gestures from the semantics tree. For
+example, the long-press gesture for showing a tooltip is
+excluded because the tooltip itself is included in the semantics
+tree directly and so having a gesture to show it would result in
+duplication of information. 
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">[...]</a>
+                  <div class="features">@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/nonVirtual-constant.html">nonVirtual</a>, read-only, inherited</div>
+</dd>
+        <dt id="key" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/foundation/Key-class.html">Key</a></span>         
+        </dt>
+        <dd class="inherited">
+          Controls how one widget replaces another widget in the tree. <a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onDoubleTap" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTap.html">onDoubleTap</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCallback.html">GestureTapCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The user has tapped the screen with a primary button at the same location
+twice in quick succession. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTap.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onDoubleTapCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapCancel.html">onDoubleTapCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCancelCallback.html">GestureTapCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapDown.html">onDoubleTapDown</a> will not end up
+causing a double tap. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onDoubleTapDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapDown.html">onDoubleTapDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapDownCallback.html">GestureTapDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that might cause a double tap has contacted the screen at a
+particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onForcePressEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressEnd.html">onForcePressEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureForcePressEndCallback.html">GestureForcePressEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer is no longer in contact with the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressEnd.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onForcePressPeak" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressPeak.html">onForcePressPeak</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureForcePressPeakCallback.html">GestureForcePressPeakCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer is in contact with the screen and has pressed with the maximum
+force. The amount of force is at least
+<a href="https://api.flutter.dev/flutter/gestures/ForcePressGestureRecognizer/peakPressure.html">ForcePressGestureRecognizer.peakPressure</a>. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressPeak.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onForcePressStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressStart.html">onForcePressStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureForcePressStartCallback.html">GestureForcePressStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer is in contact with the screen and has pressed with sufficient
+force to initiate a force press. The amount of force is at least
+<a href="https://api.flutter.dev/flutter/gestures/ForcePressGestureRecognizer/startPressure.html">ForcePressGestureRecognizer.startPressure</a>. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressStart.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onForcePressUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressUpdate.html">onForcePressUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureForcePressUpdateCallback.html">GestureForcePressUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer is in contact with the screen, has previously passed the
+<a href="https://api.flutter.dev/flutter/gestures/ForcePressGestureRecognizer/startPressure.html">ForcePressGestureRecognizer.startPressure</a> and is either moving on the
+plane of the screen, pressing the screen with varying forces or both
+simultaneously. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressUpdate.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onHorizontalDragCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragCancel.html">onHorizontalDragCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragCancelCallback.html">GestureDragCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragDown.html">onHorizontalDragDown</a> did not
+complete. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onHorizontalDragDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragDown.html">onHorizontalDragDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragDownCallback.html">GestureDragDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has contacted the screen with a primary button and might begin
+to move horizontally. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onHorizontalDragEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragEnd.html">onHorizontalDragEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragEndCallback.html">GestureDragEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that was previously in contact with the screen with a primary
+button and moving horizontally is no longer in contact with the screen and
+was moving at a specific velocity when it stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragEnd.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onHorizontalDragStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragStart.html">onHorizontalDragStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragStartCallback.html">GestureDragStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has contacted the screen with a primary button and has begun to
+move horizontally. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragStart.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onHorizontalDragUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragUpdate.html">onHorizontalDragUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragUpdateCallback.html">GestureDragUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that is in contact with the screen with a primary button and
+moving horizontally has moved in the horizontal direction. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragUpdate.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onLongPress" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPress.html">onLongPress</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressCallback.html">GestureLongPressCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          Called when a long press gesture with a primary button has been recognized. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPress.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onLongPressEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressEnd.html">onLongPressEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressEndCallback.html">GestureLongPressEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that has triggered a long-press with a primary button has
+stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressEnd.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onLongPressMoveUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressMoveUpdate.html">onLongPressMoveUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressMoveUpdateCallback.html">GestureLongPressMoveUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has been drag-moved after a long press with a primary button. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressMoveUpdate.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onLongPressStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressStart.html">onLongPressStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressStartCallback.html">GestureLongPressStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          Called when a long press gesture with a primary button has been recognized. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressStart.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onLongPressUp" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressUp.html">onLongPressUp</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressUpCallback.html">GestureLongPressUpCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that has triggered a long-press with a primary button has
+stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressUp.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onPanCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanCancel.html">onPanCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragCancelCallback.html">GestureDragCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanDown.html">onPanDown</a> did not complete. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onPanDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanDown.html">onPanDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragDownCallback.html">GestureDragDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has contacted the screen with a primary button and might begin
+to move. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onPanEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanEnd.html">onPanEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragEndCallback.html">GestureDragEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that was previously in contact with the screen with a primary
+button and moving is no longer in contact with the screen and was moving
+at a specific velocity when it stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanEnd.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onPanStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanStart.html">onPanStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragStartCallback.html">GestureDragStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has contacted the screen with a primary button and has begun to
+move. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanStart.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onPanUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanUpdate.html">onPanUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragUpdateCallback.html">GestureDragUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that is in contact with the screen with a primary button and
+moving has moved again. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanUpdate.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onScaleEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onScaleEnd.html">onScaleEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureScaleEndCallback.html">GestureScaleEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointers are no longer in contact with the screen. 
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onScaleStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onScaleStart.html">onScaleStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureScaleStartCallback.html">GestureScaleStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointers in contact with the screen have established a focal point and
+initial scale of 1.0. 
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onScaleUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onScaleUpdate.html">onScaleUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureScaleUpdateCallback.html">GestureScaleUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointers in contact with the screen have indicated a new focal point
+and/or scale. 
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryLongPress" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPress.html">onSecondaryLongPress</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressCallback.html">GestureLongPressCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          Called when a long press gesture with a secondary button has been
+recognized. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPress.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryLongPressEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressEnd.html">onSecondaryLongPressEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressEndCallback.html">GestureLongPressEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that has triggered a long-press with a secondary button has
+stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressEnd.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryLongPressMoveUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressMoveUpdate.html">onSecondaryLongPressMoveUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressMoveUpdateCallback.html">GestureLongPressMoveUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has been drag-moved after a long press with a secondary button. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressMoveUpdate.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryLongPressStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressStart.html">onSecondaryLongPressStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressStartCallback.html">GestureLongPressStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          Called when a long press gesture with a secondary button has been
+recognized. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressStart.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryLongPressUp" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressUp.html">onSecondaryLongPressUp</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureLongPressUpCallback.html">GestureLongPressUpCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that has triggered a long-press with a secondary button has
+stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressUp.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryTap" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTap.html">onSecondaryTap</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCallback.html">GestureTapCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A tap with a secondary button has occurred. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTap.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryTapCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapCancel.html">onSecondaryTapCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCancelCallback.html">GestureTapCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapDown.html">onSecondaryTapDown</a> will not end up
+causing a tap. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryTapDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapDown.html">onSecondaryTapDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapDownCallback.html">GestureTapDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that might cause a tap with a secondary button has contacted the
+screen at a particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onSecondaryTapUp" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapUp.html">onSecondaryTapUp</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapUpCallback.html">GestureTapUpCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that will trigger a tap with a secondary button has stopped
+contacting the screen at a particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapUp.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTap" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTap.html">onTap</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCallback.html">GestureTapCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A tap with a primary button has occurred. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTap.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTapCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapCancel.html">onTapCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCancelCallback.html">GestureTapCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapDown.html">onTapDown</a> will not end up causing
+a tap. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTapDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapDown.html">onTapDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapDownCallback.html">GestureTapDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that might cause a tap with a primary button has contacted the
+screen at a particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTapUp" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapUp.html">onTapUp</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapUpCallback.html">GestureTapUpCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that will trigger a tap with a primary button has stopped
+contacting the screen at a particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapUp.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTertiaryTapCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapCancel.html">onTertiaryTapCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapCancelCallback.html">GestureTapCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapDown.html">onTertiaryTapDown</a> will not end up
+causing a tap. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTertiaryTapDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapDown.html">onTertiaryTapDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapDownCallback.html">GestureTapDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that might cause a tap with a tertiary button has contacted the
+screen at a particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onTertiaryTapUp" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapUp.html">onTertiaryTapUp</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureTapUpCallback.html">GestureTapUpCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that will trigger a tap with a tertiary button has stopped
+contacting the screen at a particular location. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapUp.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onVerticalDragCancel" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragCancel.html">onVerticalDragCancel</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragCancelCallback.html">GestureDragCancelCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The pointer that previously triggered <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragDown.html">onVerticalDragDown</a> did not
+complete. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragCancel.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onVerticalDragDown" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragDown.html">onVerticalDragDown</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragDownCallback.html">GestureDragDownCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has contacted the screen with a primary button and might begin
+to move vertically. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragDown.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onVerticalDragEnd" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragEnd.html">onVerticalDragEnd</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragEndCallback.html">GestureDragEndCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that was previously in contact with the screen with a primary
+button and moving vertically is no longer in contact with the screen and
+was moving at a specific velocity when it stopped contacting the screen. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragEnd.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onVerticalDragStart" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragStart.html">onVerticalDragStart</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragStartCallback.html">GestureDragStartCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer has contacted the screen with a primary button and has begun to
+move vertically. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragStart.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onVerticalDragUpdate" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragUpdate.html">onVerticalDragUpdate</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/gestures/GestureDragUpdateCallback.html">GestureDragUpdateCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          A pointer that is in contact with the screen with a primary button and
+moving vertically has moved in the vertical direction. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragUpdate.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object. 
+                  <div class="features">read-only, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="build" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/build.html">build</a></span><span class="signature">(<wbr><span class="parameter" id="build-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Describes the part of the user interface represented by this widget. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/build.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="createElement" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget/createElement.html">createElement</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/StatelessElement-class.html">StatelessElement</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Creates a <a href="https://api.flutter.dev/flutter/widgets/StatelessElement-class.html">StatelessElement</a> to manage this widget's location in the tree. <a href="https://api.flutter.dev/flutter/widgets/StatelessWidget/createElement.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="debugDescribeChildren" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a list of <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a> objects describing this node's
+children. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">[...]</a>
+                  <div class="features">@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/protected-constant.html">protected</a>, inherited</div>
+</dd>
+        <dt id="debugFillProperties" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/debugFillProperties.html">debugFillProperties</a></span><span class="signature">(<wbr><span class="parameter" id="debugFillProperties-param-properties"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticPropertiesBuilder-class.html">DiagnosticPropertiesBuilder</a></span> <span class="parameter-name">properties</span></span>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Add additional properties associated with the node. <a href="https://api.flutter.dev/flutter/widgets/GestureDetector/debugFillProperties.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toDiagnosticsNode" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></span><span class="signature">(<wbr><span class="parameter" id="toDiagnosticsNode-param-name">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="toDiagnosticsNode-param-style"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsTreeStyle-class.html">DiagnosticsTreeStyle</a></span> <span class="parameter-name">style</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a debug representation of the object that is used by debugging
+tools and by <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode/toStringDeep.html">DiagnosticsNode.toStringDeep</a>. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></span><span class="signature">(<wbr><span class="parameter" id="toString-param-minLevel">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel-class.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span>: <span class="default-value">DiagnosticLevel.info</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this object. 
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toStringDeep" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></span><span class="signature">(<wbr><span class="parameter" id="toStringDeep-param-prefixLineOne">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixLineOne</span>: <span class="default-value">&#39;&#39;</span>, </span><span class="parameter" id="toStringDeep-param-prefixOtherLines"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixOtherLines</span>, </span><span class="parameter" id="toStringDeep-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel-class.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span>: <span class="default-value">DiagnosticLevel.debug</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this node and its descendants. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toStringShallow" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></span><span class="signature">(<wbr><span class="parameter" id="toStringShallow-param-joiner">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">joiner</span>: <span class="default-value">&#39;, &#39;</span>, </span><span class="parameter" id="toStringShallow-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel-class.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span>: <span class="default-value">DiagnosticLevel.debug</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a one-line detailed description of the object. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toStringShort" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          A short, textual description of this widget. 
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          The equality operator. <a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">[...]</a>
+                  <div class="features">@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/nonVirtual-constant.html">nonVirtual</a>, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+
+
+    <li class="section-title"><a href="../main/HomeButton-class.html#constructors">Constructors</a></li>
+    <li><a href="../main/HomeButton/HomeButton.html">HomeButton</a></li>
+
+    <li class="section-title"> <a href="../main/HomeButton-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/behavior.html">behavior</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/child.html">child</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/dragStartBehavior.html">dragStartBehavior</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/excludeFromSemantics.html">excludeFromSemantics</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTap.html">onDoubleTap</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapCancel.html">onDoubleTapCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onDoubleTapDown.html">onDoubleTapDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressEnd.html">onForcePressEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressPeak.html">onForcePressPeak</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressStart.html">onForcePressStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onForcePressUpdate.html">onForcePressUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragCancel.html">onHorizontalDragCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragDown.html">onHorizontalDragDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragEnd.html">onHorizontalDragEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragStart.html">onHorizontalDragStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragUpdate.html">onHorizontalDragUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPress.html">onLongPress</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressEnd.html">onLongPressEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressMoveUpdate.html">onLongPressMoveUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressStart.html">onLongPressStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onLongPressUp.html">onLongPressUp</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanCancel.html">onPanCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanDown.html">onPanDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanEnd.html">onPanEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanStart.html">onPanStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onPanUpdate.html">onPanUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onScaleEnd.html">onScaleEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onScaleStart.html">onScaleStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onScaleUpdate.html">onScaleUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPress.html">onSecondaryLongPress</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressEnd.html">onSecondaryLongPressEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressMoveUpdate.html">onSecondaryLongPressMoveUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressStart.html">onSecondaryLongPressStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryLongPressUp.html">onSecondaryLongPressUp</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTap.html">onSecondaryTap</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapCancel.html">onSecondaryTapCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapDown.html">onSecondaryTapDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onSecondaryTapUp.html">onSecondaryTapUp</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTap.html">onTap</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapCancel.html">onTapCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapDown.html">onTapDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTapUp.html">onTapUp</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapCancel.html">onTertiaryTapCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapDown.html">onTertiaryTapDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onTertiaryTapUp.html">onTertiaryTapUp</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragCancel.html">onVerticalDragCancel</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragDown.html">onVerticalDragDown</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragEnd.html">onVerticalDragEnd</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragStart.html">onVerticalDragStart</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragUpdate.html">onVerticalDragUpdate</a></li>
+    <li><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+
+    <li class="section-title"><a href="../main/HomeButton-class.html#instance-methods">Methods</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/build.html">build</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget/createElement.html">createElement</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/GestureDetector/debugFillProperties.html">debugFillProperties</a></li>
+    <li><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></li>
+
+    <li class="section-title"><a href="../main/HomeButton-class.html#operators">Operators</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></li>
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    valladolid_multiapp
+      1.0.0+1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static-assets/typeahead.bundle.min.js"></script>
+<script src="../static-assets/highlight.pack.js"></script>
+<script src="../static-assets/URI.js"></script>
+<script src="../static-assets/script.js"></script>
+
+
+</body>
+
+</html>

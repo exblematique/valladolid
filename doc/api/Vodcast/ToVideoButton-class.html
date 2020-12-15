@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the ToVideoButton class from the Vodcast library, for the Dart programming language.">
+  <title>ToVideoButton class - Vodcast library - Dart API</title>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../static-assets/github.css">
+  <link rel="stylesheet" href="../static-assets/styles.css">
+  <link rel="icon" href="../static-assets/favicon.png">
+
+</head>
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">valladolid_multiapp</a></li>
+    <li><a href="../Vodcast/Vodcast-library.html">Vodcast</a></li>
+    <li class="self-crumb">ToVideoButton class</li>
+  </ol>
+  <div class="self-name">ToVideoButton</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="../index.html">valladolid_multiapp</a></li>
+      <li><a href="../Vodcast/Vodcast-library.html">Vodcast</a></li>
+      <li class="self-crumb">ToVideoButton class</li>
+    </ol>
+    
+    <h5>Vodcast library</h5>
+    <ol>
+  <li class="section-title"><a href="../Vodcast/Vodcast-library.html#classes">Classes</a></li>
+  <li><a href="../Vodcast/TextWithBorder-class.html">TextWithBorder</a></li>
+  <li><a href="../Vodcast/ToVideoButton-class.html">ToVideoButton</a></li>
+  <li><a href="../Vodcast/VideoPlayerScreen-class.html">VideoPlayerScreen</a></li>
+  <li><a href="../Vodcast/Vodcast-class.html">Vodcast</a></li>
+
+
+
+
+
+
+
+
+</ol>
+
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-class">ToVideoButton</span> class  </h1></div>
+
+    <section class="desc markdown">
+      <p>A <a href="https://api.flutter.dev/flutter/material/RaisedButton-class.html">RaisedButton</a> to select one video to play</p>
+<p>When the video is initialized, the method is different for network and resource videos.</p>
+    </section>
+    
+    <section>
+      <dl class="dl-horizontal">
+        <dt>Inheritance</dt>
+        <dd><ul class="gt-separated dark clazz-relationships">
+          <li><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></li>
+          <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree-class.html">DiagnosticableTree</a></li>
+          <li><a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></li>
+          <li><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html">StatelessWidget</a></li>
+          <li><a href="https://api.flutter.dev/flutter/material/MaterialButton-class.html">MaterialButton</a></li>
+          <li><a href="https://api.flutter.dev/flutter/material/RaisedButton-class.html">RaisedButton</a></li>
+          <li>ToVideoButton</li>
+        </ul></dd>
+
+
+
+
+
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="ToVideoButton" class="callable">
+          <span class="name"><a href="../Vodcast/ToVideoButton/ToVideoButton.html">ToVideoButton</a></span><span class="signature">(<span class="parameter" id="-param-key">{<span class="type-annotation">dynamic</span> <span class="parameter-name">key</span>, </span><span class="parameter" id="-param-context"><span>@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/required-constant.html">required</a></span> <span class="type-annotation">dynamic</span> <span class="parameter-name">context</span>, </span><span class="parameter" id="-param-name"><span>@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/required-constant.html">required</a></span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="-param-controller"><span>@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/required-constant.html">required</a></span> <span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">controller</span>, </span><span class="parameter" id="-param-isNetworkVideo"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isNetworkVideo</span>}</span>)</span>
+        </dt>
+        <dd>
+          Creates a <a href="https://api.flutter.dev/flutter/material/RaisedButton-class.html">RaisedButton</a> to select one video to play. 
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="animationDuration" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/animationDuration.html">animationDuration</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Duration-class.html">Duration</a></span>         
+        </dt>
+        <dd class="inherited">
+          Defines the duration of animated changes for <a href="https://api.flutter.dev/flutter/material/MaterialButton/shape.html">shape</a> and <a href="https://api.flutter.dev/flutter/material/MaterialButton/elevation.html">elevation</a>. <a href="https://api.flutter.dev/flutter/material/MaterialButton/animationDuration.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="autofocus" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/autofocus.html">autofocus</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd class="inherited">
+          True if this widget will be selected as the initial focus when no other
+node in its scope is currently focused. <a href="https://api.flutter.dev/flutter/material/MaterialButton/autofocus.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="child" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/child.html">child</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>         
+        </dt>
+        <dd class="inherited">
+          The button's label. <a href="https://api.flutter.dev/flutter/material/MaterialButton/child.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="clipBehavior" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/clipBehavior.html">clipBehavior</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Clip-class.html">Clip</a></span>         
+        </dt>
+        <dd class="inherited">
+          The content will be clipped (or not) according to this option. <a href="https://api.flutter.dev/flutter/material/MaterialButton/clipBehavior.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="color" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/color.html">color</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The button's fill color, displayed by its <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a>, while it
+is in its default (unpressed, <a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a>) state. <a href="https://api.flutter.dev/flutter/material/MaterialButton/color.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="colorBrightness" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/colorBrightness.html">colorBrightness</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Brightness-class.html">Brightness</a></span>         
+        </dt>
+        <dd class="inherited">
+          The theme brightness to use for this button. <a href="https://api.flutter.dev/flutter/material/MaterialButton/colorBrightness.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="controller" class="property">
+          <span class="name"><a href="../Vodcast/ToVideoButton/controller.html">controller</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>         
+        </dt>
+        <dd>
+          Path of the video either in folder /res/video or https website (http raise an error for insecure web page) 
+                  <div class="features">final</div>
+</dd>
+        <dt id="disabledColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledColor.html">disabledColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The fill color of the button when the button is disabled. <a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="disabledElevation" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledElevation.html">disabledElevation</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The elevation for the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a> relative to its parent when the
+button is not <a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a>. <a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledElevation.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="disabledTextColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledTextColor.html">disabledTextColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The color to use for this button's text when the button is disabled. <a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledTextColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="elevation" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/elevation.html">elevation</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The z-coordinate at which to place this button relative to its parent. <a href="https://api.flutter.dev/flutter/material/MaterialButton/elevation.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="enabled" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd class="inherited">
+          Whether the button is enabled or disabled. <a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">[...]</a>
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="enableFeedback" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/enableFeedback.html">enableFeedback</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd class="inherited">
+          Whether detected gestures should provide acoustic and/or haptic feedback. <a href="https://api.flutter.dev/flutter/material/MaterialButton/enableFeedback.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="focusColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/focusColor.html">focusColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The fill color of the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a> when it has the input focus. <a href="https://api.flutter.dev/flutter/material/MaterialButton/focusColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="focusElevation" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/focusElevation.html">focusElevation</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The elevation for the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a> when the button
+is <a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a> and has the input focus. <a href="https://api.flutter.dev/flutter/material/MaterialButton/focusElevation.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="focusNode" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/focusNode.html">focusNode</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/widgets/FocusNode-class.html">FocusNode</a></span>         
+        </dt>
+        <dd class="inherited">
+          An optional focus node to use as the focus node for this widget. <a href="https://api.flutter.dev/flutter/material/MaterialButton/focusNode.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">[...]</a>
+                  <div class="features">@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/nonVirtual-constant.html">nonVirtual</a>, read-only, inherited</div>
+</dd>
+        <dt id="height" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/height.html">height</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The vertical extent of the button. <a href="https://api.flutter.dev/flutter/material/MaterialButton/height.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="highlightColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/highlightColor.html">highlightColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The highlight color of the button's <a href="https://api.flutter.dev/flutter/material/InkWell-class.html">InkWell</a>. <a href="https://api.flutter.dev/flutter/material/MaterialButton/highlightColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="highlightElevation" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/highlightElevation.html">highlightElevation</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The elevation for the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a> relative to its parent when the
+button is <a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a> and pressed. <a href="https://api.flutter.dev/flutter/material/MaterialButton/highlightElevation.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="hoverColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/hoverColor.html">hoverColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The fill color of the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a> when a pointer is hovering over
+it. <a href="https://api.flutter.dev/flutter/material/MaterialButton/hoverColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="hoverElevation" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/hoverElevation.html">hoverElevation</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The elevation for the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a> when the button
+is <a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a> and a pointer is hovering over it. <a href="https://api.flutter.dev/flutter/material/MaterialButton/hoverElevation.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="isNetworkVideo" class="property">
+          <span class="name"><a href="../Vodcast/ToVideoButton/isNetworkVideo.html">isNetworkVideo</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>         
+        </dt>
+        <dd>
+          True when the video is store in web server. Else it is false for videos in resource folder. 
+                  <div class="features">final</div>
+</dd>
+        <dt id="key" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/foundation/Key-class.html">Key</a></span>         
+        </dt>
+        <dd class="inherited">
+          Controls how one widget replaces another widget in the tree. <a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="materialTapTargetSize" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/materialTapTargetSize.html">materialTapTargetSize</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/material/MaterialTapTargetSize-class.html">MaterialTapTargetSize</a></span>         
+        </dt>
+        <dd class="inherited">
+          Configures the minimum size of the tap target. <a href="https://api.flutter.dev/flutter/material/MaterialButton/materialTapTargetSize.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="minWidth" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/minWidth.html">minWidth</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/double-class.html">double</a></span>         
+        </dt>
+        <dd class="inherited">
+          The smallest horizontal extent that the button will occupy. <a href="https://api.flutter.dev/flutter/material/MaterialButton/minWidth.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="mouseCursor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/mouseCursor.html">mouseCursor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/rendering/MouseCursor-class.html">MouseCursor</a></span>         
+        </dt>
+        <dd class="inherited">
+          The cursor for a mouse pointer when it enters or is hovering over the
+button. <a href="https://api.flutter.dev/flutter/material/MaterialButton/mouseCursor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onHighlightChanged" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/onHighlightChanged.html">onHighlightChanged</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/foundation/ValueChanged.html">ValueChanged</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>         
+        </dt>
+        <dd class="inherited">
+          Called by the underlying <a href="https://api.flutter.dev/flutter/material/InkWell-class.html">InkWell</a> widget's <a href="https://api.flutter.dev/flutter/material/InkResponse/onHighlightChanged.html">InkWell.onHighlightChanged</a>
+callback. <a href="https://api.flutter.dev/flutter/material/MaterialButton/onHighlightChanged.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onLongPress" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/onLongPress.html">onLongPress</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/VoidCallback.html">VoidCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The callback that is called when the button is long-pressed. <a href="https://api.flutter.dev/flutter/material/MaterialButton/onLongPress.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="onPressed" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/onPressed.html">onPressed</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/VoidCallback.html">VoidCallback</a></span>         
+        </dt>
+        <dd class="inherited">
+          The callback that is called when the button is tapped or otherwise activated. <a href="https://api.flutter.dev/flutter/material/MaterialButton/onPressed.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="padding" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/padding.html">padding</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html">EdgeInsetsGeometry</a></span>         
+        </dt>
+        <dd class="inherited">
+          The internal padding for the button's <a href="https://api.flutter.dev/flutter/material/MaterialButton/child.html">child</a>. <a href="https://api.flutter.dev/flutter/material/MaterialButton/padding.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Type-class.html">Type</a></span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object. 
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="shape" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/shape.html">shape</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/painting/ShapeBorder-class.html">ShapeBorder</a></span>         
+        </dt>
+        <dd class="inherited">
+          The shape of the button's <a href="https://api.flutter.dev/flutter/material/Material-class.html">Material</a>. <a href="https://api.flutter.dev/flutter/material/MaterialButton/shape.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="splashColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/splashColor.html">splashColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The splash color of the button's <a href="https://api.flutter.dev/flutter/material/InkWell-class.html">InkWell</a>. <a href="https://api.flutter.dev/flutter/material/MaterialButton/splashColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="textColor" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/textColor.html">textColor</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/dart-ui/Color-class.html">Color</a></span>         
+        </dt>
+        <dd class="inherited">
+          The color to use for this button's text. <a href="https://api.flutter.dev/flutter/material/MaterialButton/textColor.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="textTheme" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/textTheme.html">textTheme</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/material/ButtonTextTheme-class.html">ButtonTextTheme</a></span>         
+        </dt>
+        <dd class="inherited">
+          Defines the button's base colors, and the defaults for the button's minimum
+size, internal padding, and shape. <a href="https://api.flutter.dev/flutter/material/MaterialButton/textTheme.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+        <dt id="visualDensity" class="property inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/MaterialButton/visualDensity.html">visualDensity</a></span>
+          <span class="signature">&#8594; <a href="https://api.flutter.dev/flutter/material/VisualDensity-class.html">VisualDensity</a></span>         
+        </dt>
+        <dd class="inherited">
+          Defines how compact the button's layout will be. <a href="https://api.flutter.dev/flutter/material/MaterialButton/visualDensity.html">[...]</a>
+                  <div class="features">final, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="build" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/RaisedButton/build.html">build</a></span><span class="signature">(<wbr><span class="parameter" id="build-param-context"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a></span> <span class="parameter-name">context</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/Widget-class.html">Widget</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Describes the part of the user interface represented by this widget. <a href="https://api.flutter.dev/flutter/material/RaisedButton/build.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="createElement" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget/createElement.html">createElement</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/widgets/StatelessElement-class.html">StatelessElement</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Creates a <a href="https://api.flutter.dev/flutter/widgets/StatelessElement-class.html">StatelessElement</a> to manage this widget's location in the tree. <a href="https://api.flutter.dev/flutter/widgets/StatelessWidget/createElement.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="debugDescribeChildren" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a list of <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a> objects describing this node's
+children. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">[...]</a>
+                  <div class="features">@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/protected-constant.html">protected</a>, inherited</div>
+</dd>
+        <dt id="debugFillProperties" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/material/RaisedButton/debugFillProperties.html">debugFillProperties</a></span><span class="signature">(<wbr><span class="parameter" id="debugFillProperties-param-properties"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticPropertiesBuilder-class.html">DiagnosticPropertiesBuilder</a></span> <span class="parameter-name">properties</span></span>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Add additional properties associated with the node. <a href="https://api.flutter.dev/flutter/material/RaisedButton/debugFillProperties.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toDiagnosticsNode" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></span><span class="signature">(<wbr><span class="parameter" id="toDiagnosticsNode-param-name">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="toDiagnosticsNode-param-style"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticsTreeStyle-class.html">DiagnosticsTreeStyle</a></span> <span class="parameter-name">style</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html">DiagnosticsNode</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a debug representation of the object that is used by debugging
+tools and by <a href="https://api.flutter.dev/flutter/foundation/DiagnosticsNode/toStringDeep.html">DiagnosticsNode.toStringDeep</a>. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></span><span class="signature">(<wbr><span class="parameter" id="toString-param-minLevel">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel-class.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span>: <span class="default-value">DiagnosticLevel.info</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this object. 
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toStringDeep" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></span><span class="signature">(<wbr><span class="parameter" id="toStringDeep-param-prefixLineOne">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixLineOne</span>: <span class="default-value">&#39;&#39;</span>, </span><span class="parameter" id="toStringDeep-param-prefixOtherLines"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">prefixOtherLines</span>, </span><span class="parameter" id="toStringDeep-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel-class.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span>: <span class="default-value">DiagnosticLevel.debug</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this node and its descendants. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toStringShallow" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></span><span class="signature">(<wbr><span class="parameter" id="toStringShallow-param-joiner">{<span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">joiner</span>: <span class="default-value">&#39;, &#39;</span>, </span><span class="parameter" id="toStringShallow-param-minLevel"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/foundation/DiagnosticLevel-class.html">DiagnosticLevel</a></span> <span class="parameter-name">minLevel</span>: <span class="default-value">DiagnosticLevel.debug</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a one-line detailed description of the object. <a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toStringShort" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          A short, textual description of this widget. 
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          The equality operator. <a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">[...]</a>
+                  <div class="features">@<a href="https://pub.dev/documentation/meta/1.3.0-nullsafety.3/meta/nonVirtual-constant.html">nonVirtual</a>, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+
+
+    <li class="section-title"><a href="../Vodcast/ToVideoButton-class.html#constructors">Constructors</a></li>
+    <li><a href="../Vodcast/ToVideoButton/ToVideoButton.html">ToVideoButton</a></li>
+
+    <li class="section-title"> <a href="../Vodcast/ToVideoButton-class.html#instance-properties">Properties</a>
+    </li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/animationDuration.html">animationDuration</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/autofocus.html">autofocus</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/child.html">child</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/clipBehavior.html">clipBehavior</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/color.html">color</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/colorBrightness.html">colorBrightness</a></li>
+    <li><a href="../Vodcast/ToVideoButton/controller.html">controller</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledColor.html">disabledColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledElevation.html">disabledElevation</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/disabledTextColor.html">disabledTextColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/elevation.html">elevation</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/enabled.html">enabled</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/enableFeedback.html">enableFeedback</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/focusColor.html">focusColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/focusElevation.html">focusElevation</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/focusNode.html">focusNode</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/hashCode.html">hashCode</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/height.html">height</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/highlightColor.html">highlightColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/highlightElevation.html">highlightElevation</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/hoverColor.html">hoverColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/hoverElevation.html">hoverElevation</a></li>
+    <li><a href="../Vodcast/ToVideoButton/isNetworkVideo.html">isNetworkVideo</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/key.html">key</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/materialTapTargetSize.html">materialTapTargetSize</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/minWidth.html">minWidth</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/mouseCursor.html">mouseCursor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/onHighlightChanged.html">onHighlightChanged</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/onLongPress.html">onLongPress</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/onPressed.html">onPressed</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/padding.html">padding</a></li>
+    <li><a href="https://api.flutter.dev/flutter/dart-core/Object/runtimeType.html">runtimeType</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/shape.html">shape</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/splashColor.html">splashColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/textColor.html">textColor</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/textTheme.html">textTheme</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/MaterialButton/visualDensity.html">visualDensity</a></li>
+
+    <li class="section-title"><a href="../Vodcast/ToVideoButton-class.html#instance-methods">Methods</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/RaisedButton/build.html">build</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget/createElement.html">createElement</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/debugDescribeChildren.html">debugDescribeChildren</a></li>
+    <li><a href="https://api.flutter.dev/flutter/material/RaisedButton/debugFillProperties.html">debugFillProperties</a></li>
+    <li><a href="https://api.flutter.dev/flutter/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html">toDiagnosticsNode</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html">toString</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html">toStringDeep</a></li>
+    <li><a href="https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html">toStringShallow</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/toStringShort.html">toStringShort</a></li>
+
+    <li class="section-title"><a href="../Vodcast/ToVideoButton-class.html#operators">Operators</a></li>
+    <li><a href="https://api.flutter.dev/flutter/widgets/Widget/operator_equals.html">operator ==</a></li>
+
+
+
+</ol>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    valladolid_multiapp
+      1.0.0+1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static-assets/typeahead.bundle.min.js"></script>
+<script src="../static-assets/highlight.pack.js"></script>
+<script src="../static-assets/URI.js"></script>
+<script src="../static-assets/script.js"></script>
+
+
+</body>
+
+</html>
