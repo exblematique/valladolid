@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:valladolid_multiapp/style.dart';
 
+///
+/// This file defines all action in Figures part for this application
+///
+
 /// Entry point of the widget [Figures]
 class Figures extends StatefulWidget {
   const Figures({Key key}) : super(key:key);
@@ -9,6 +13,7 @@ class Figures extends StatefulWidget {
   _FiguresState createState() => _FiguresState();
 }
 
+/// Defines state for [Figures] class
 class _FiguresState extends State<Figures>{
   /// List of figures available for this application
   ///

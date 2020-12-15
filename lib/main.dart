@@ -5,6 +5,10 @@ import 'package:valladolid_multiapp/Resources.dart' show Resources;
 import 'package:valladolid_multiapp/Vodcast.dart' show Vodcast;
 import 'package:valladolid_multiapp/style.dart';
 
+///
+/// This is the main file for this application
+///
+
 /// Create a button for [HomePage] to push toward a new view.
 ///
 /// [GestureDetector] is used to use [onTap] method and enables to superpose text above image.
