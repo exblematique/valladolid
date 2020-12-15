@@ -32,7 +32,7 @@ class HomeButton extends GestureDetector{
 /// Define the new main function to start the first view
 void main() => runApp(App());
 
-/// [App] class defined caracteristics of application
+/// [App] class defines characteristics of application
 ///
 /// First, this class defines the general theme. A custom abstract [Style] class is used for this.
 /// Next, routes are defined. This creates a short name to redirect views. There are one dart file for each route (with the same name)
@@ -53,6 +53,10 @@ class App extends StatelessWidget {
   }
 }
 
+/// [HomePage] class defines the default view when application is started
+///
+/// Display 4 buttons to redirect in others views
+/// Layout depends on orientation of device
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
